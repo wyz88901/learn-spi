@@ -1,0 +1,13 @@
+package com.ywei.spi.service;
+
+/**
+ * @author yingzhou.wei
+ * @Description log 接口定义
+ * @date 2019/6/20
+ */
+public interface ILogService {
+    public void debug(String message);
+    public void info(String message);
+    public void error(String message);
+    public void warn(String message);
+}
