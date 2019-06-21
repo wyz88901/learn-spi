@@ -1,0 +1,1 @@
+logback=com.ywei.spi.service.logback.LogBackServiceImpl
